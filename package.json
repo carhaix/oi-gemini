@@ -1,11 +1,13 @@
 {
   "name": "oi-gemini",
   "version": "0.1.0",
-  "description": "Gemini CLI extension for the Oi MCP server.",
+  "description": "Gemini CLI and Antigravity plugin for the Oi MCP server.",
   "license": "MIT",
   "private": true,
   "files": [
     "gemini-extension.json",
+    "mcp_config.json",
+    "plugin.json",
     "README.md"
   ],
   "repository": {
@@ -18,6 +20,8 @@
   },
   "keywords": [
     "gemini-cli-extension",
+    "antigravity",
+    "antigravity-plugin",
     "gemini-cli",
     "mcp",
     "model-context-protocol",

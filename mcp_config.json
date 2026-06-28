@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "oi": {
+      "serverUrl": "https://api.oioioi.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${OI_API_TOKEN}"
+      }
+    }
+  }
+}
