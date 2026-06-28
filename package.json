@@ -1,6 +1,6 @@
 {
   "name": "oi-gemini",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gemini CLI and Antigravity plugin for the Oi MCP server.",
   "license": "MIT",
   "private": true,
