@@ -1,0 +1,22 @@
+{
+  "name": "oi",
+  "version": "0.1.0",
+  "description": "Access your Oi setup from Gemini CLI: teams, contexts, workflows, tools, and more.",
+  "settings": [
+    {
+      "name": "Oi API token",
+      "description": "Bearer token for Oi access. Use an exported Oi organization API key.",
+      "envVar": "OI_API_TOKEN",
+      "sensitive": true
+    }
+  ],
+  "mcpServers": {
+    "oi": {
+      "httpUrl": "https://api.oioioi.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${OI_API_TOKEN}"
+      },
+      "description": "Access Oi teams, contexts, workflows, tools, and related usage flows."
+    }
+  }
+}

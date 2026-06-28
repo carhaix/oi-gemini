@@ -1,0 +1,27 @@
+{
+  "name": "oi-gemini",
+  "version": "0.1.0",
+  "description": "Gemini CLI extension for the Oi MCP server.",
+  "license": "MIT",
+  "private": true,
+  "files": [
+    "gemini-extension.json",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carhaix/oi-gemini.git"
+  },
+  "homepage": "https://github.com/carhaix/oi-gemini",
+  "bugs": {
+    "url": "https://github.com/carhaix/oi-gemini/issues"
+  },
+  "keywords": [
+    "gemini-cli-extension",
+    "gemini-cli",
+    "mcp",
+    "model-context-protocol",
+    "oi",
+    "hosted-server"
+  ]
+}
